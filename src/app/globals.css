@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+  ::-webkit-scrollbar {
+    /* position: relative; */
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #FFB703;
+  }
+
+  ::-webkit-scrollbar-track {
+    position: absolute;
+    border-radius: 1px;
+  }
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* This are for alignment debugging. */
+
+/* body>main,
+footer,
+header {
+  border: 1px solid red;
+}
+
+body>main>*,
+body>footer>*,
+body>header>* {
+  border: 1px solid white;
+} */
